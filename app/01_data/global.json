@@ -1,0 +1,11 @@
+{
+    "name": "Sinead & Andy",
+    "title": "Sinead & Andy",
+    "siteTitle": "Sinead & Andy",
+    "description": "Wedding site for Sinead and Andy",
+    "styles": "_styles",
+    "scripts": "_scripts",
+    "mainCss": "styles.css",
+    "images": "images",
+    "copyrightYear": "2017"
+}
