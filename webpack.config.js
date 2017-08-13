@@ -70,7 +70,8 @@ module.exports = {
       allChunks: true,
     }),
     new CopyWebpackPlugin([
-      {from:'./assets/images',to:'images'}
+      {from:'./assets/images',to:'images'},
+      {from:'./assets/_scripts/plugins',to:'plugins'}
     ])
   ]
 };

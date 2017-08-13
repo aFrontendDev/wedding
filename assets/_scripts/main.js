@@ -1,6 +1,10 @@
-console.log('1');
 
-const myobject = [{a:1}, {b:2}, {c:3}];
-for (const i of myobject) {
-  console.log(i);
-}
+require('./combine/a-file.js');
+require('./combine/another-file.js');
+
+window.siteObj = window.siteObj ? window.siteObj : {};
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log("DOM fully loaded and parsed");
+  pubsub.publish('something');
+});
